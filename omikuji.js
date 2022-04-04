@@ -1,6 +1,7 @@
 let name, username, userResult, rand;
 
 username = prompt("お名前を教えて下さい。");
+// 名前未入力の場合、名無しに。
 if (username === "") {
     document.getElementById("name").innerHTML = "名無し";
 } else {
